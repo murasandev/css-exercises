@@ -46,7 +46,8 @@ input {
 .content {
   flex-direction: column;
   align-items: center;
-  margin-top: 150px;
+  /* margin-top: 150px; */
+  justify-content: center;
   flex-grow: 1;
 }
 
@@ -54,6 +55,7 @@ input {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  background-color: #eee;
 }
 
 .footer > ul {
@@ -61,6 +63,6 @@ input {
   flex-direction: row;
   list-style: none;
   gap: 20px;
-  margin: 0px 20px;
+  margin: 20px;
   padding: 0;
 } 
